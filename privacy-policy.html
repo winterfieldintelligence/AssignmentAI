@@ -27,8 +27,9 @@
     }
     header {
       display: flex;
-      align-items: center;
-      gap: 16px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
       padding: 16px 0 8px;
       border-bottom: 1px solid #222;
     }
@@ -75,73 +76,92 @@
       <img src="assignmentai.png" alt="Assignment AI logo" />
       <div>
         <h1>Assignment AI Privacy Policy</h1>
-        <div class="muted">Last updated: 18 March 2026</div>
+        <div class="muted">Last updated: 19 March 2026</div>
       </div>
     </header>
 
-    <div class="card">
-      <p>
-        Assignment AI helps you generate handwritten-style assignments from your own handwriting
-        samples and background pages. This policy explains how we handle your data.
-      </p>
-    </div>
-
-    <h2>What We Collect</h2>
+    <h2>Overview</h2>
     <div class="card">
       <ul>
-        <li>Handwriting and background images you choose to upload or select from your device.</li>
-        <li>Text you type to generate assignment pages.</li>
-        <li>Basic app state stored locally on your device so the app can work smoothly.</li>
+        <li>Assignment AI converts your content into a handwriting-style page.</li>
+        <li>You control what content is processed.</li>
+        <li>This policy explains how data is handled.</li>
       </ul>
     </div>
 
-    <h2>How We Use Your Data</h2>
+    <h2>Data We Collect</h2>
     <div class="card">
       <ul>
-        <li>To generate handwriting-style output, match fonts, and render assignment pages.</li>
-        <li>To download the handwriting font pack when needed.</li>
-        <li>To help troubleshoot if you contact support.</li>
+        <li>Images you upload or capture (handwriting samples, page backgrounds, optional note photos).</li>
+        <li>Text you type or text extracted on device.</li>
+        <li>App settings stored locally on your device.</li>
+      </ul>
+    </div>
+
+    <h2>How We Use Data</h2>
+    <div class="card">
+      <ul>
+        <li>Render handwriting-style pages.</li>
+        <li>Extract text from images you choose.</li>
+        <li>Match or generate handwriting-style fonts (when enabled).</li>
+        <li>Save generated pages to your device when you choose.</li>
       </ul>
     </div>
 
     <h2>Where Processing Happens</h2>
     <div class="card">
       <ul>
-        <li>Most processing happens locally on your device.</li>
-        <li>Some features may send images to a backend service you configure in the app for font
-            generation or style extraction. Those images are used only to produce your result.</li>
+        <li>Processing is done on your device by default.</li>
+        <li>If you enable optional backend services (font generation or font library download), selected images may be sent to that server only for processing.</li>
       </ul>
     </div>
 
-    <h2>Sharing and Selling</h2>
+    <h2>Sharing And Selling</h2>
     <div class="card">
       <ul>
-        <li>We do not sell your personal data.</li>
-        <li>We do not share your data with third parties except service providers required to run
-            backend features.</li>
+        <li>We do not sell personal data.</li>
+        <li>We do not share data with third parties, except the optional backend you enable.</li>
       </ul>
     </div>
 
     <h2>Data Retention</h2>
     <div class="card">
       <ul>
-        <li>Your content stays on your device until you delete it or uninstall the app.</li>
-        <li>Backend services may temporarily store files to complete processing. We do not intend
-            to keep them longer than necessary to provide the result.</li>
+        <li>Content stays on your device until you delete it or uninstall the app.</li>
+        <li>Images saved to your gallery stay until you delete them.</li>
+        <li>Recent history and locally saved previews are removed when you delete your account.</li>
+        <li>Optional backend servers may keep files temporarily only to complete processing.</li>
       </ul>
     </div>
 
-    <h2>Children’s Privacy</h2>
+    <h2>Permissions</h2>
     <div class="card">
-      <p>This app is not directed to children under 13. If you believe a child has provided data,
-         contact us and we will delete it.</p>
+      <ul>
+        <li>Camera: capture handwriting, backgrounds, or note photos.</li>
+        <li>Photos and media: select images from your device.</li>
+        <li>Internet: optional font library download or optional backend processing.</li>
+      </ul>
+    </div>
+
+    <h2>Children Privacy</h2>
+    <div class="card">
+      <ul>
+        <li>This app is not directed to children under 13.</li>
+      </ul>
     </div>
 
     <h2>Your Choices</h2>
     <div class="card">
       <ul>
-        <li>You can choose not to upload handwriting and still use basic features.</li>
-        <li>You can remove content by deleting files from your device or uninstalling the app.</li>
+        <li>You can use the app without uploading images by typing your content.</li>
+        <li>You can delete app data at any time from your device settings.</li>
+      </ul>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <ul>
+        <li>For questions, contact us using the details below.</li>
       </ul>
     </div>
 
@@ -149,7 +169,7 @@
       <div><strong>Developer:</strong> Eknath Patil</div>
       <div><strong>Phone:</strong> +91 8767435956</div>
       <div><strong>Email:</strong> eknathyuvrajpatil@gmail.com</div>
-      <div><strong>Company:</strong> assiginmentaiapp@gmail.com</div>
+      <div><strong>Company:</strong> winterfieldintelligence@gmail.com</div>
     </footer>
   </div>
 </body>
